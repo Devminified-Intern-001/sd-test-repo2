@@ -1,0 +1,39 @@
+body{
+    background-color: burlywood;
+}
+.main{
+    text-align: center;
+}
+h1 {
+    font-family: cursive;
+    font-size: 350%;
+}
+input{
+    padding: 1%;
+    width: 20%;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: cursive;
+}
+
+button{
+    font-size: larger;
+    font-family: cursive;
+    padding: 1%;
+    width: 22%;
+    height: 60px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+p{
+    display: inline-block;
+    min-width: 11%;
+    text-align: end;
+    font-family: cursive;
+}
+.label{
+    text-align: start;
+}
