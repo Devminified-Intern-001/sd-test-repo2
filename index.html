@@ -3,16 +3,24 @@
     <head>
         <title>Calculator</title>
         <script src="test.js"></script>
+        <link rel="stylesheet" href = "style.css">
     </head>
     <body>
-        <h1>Calculator</h1>
-        <input type="number" id="val1" placeholder="Value 1">
-        <input type="number" id="val2" placeholder="Value 2">
-        <button onclick="calc()">Calculate</button>
-        <br />
-        Sum<p id="sum">0</p>
-        Diff<p id="diff">0</p>
-        Product<p id="prod">0</p>
-        Quotient<p id="div">0</p>
+        <div class="main">
+            <h1>Calculator</h1>
+            <input type="number" id="val1" placeholder="Value 1">
+            <br />
+            <input type="number" id="val2" placeholder="Value 2">
+            <br />
+            <button onclick="calc()">Calculate</button>
+            <br />
+            <p class="label">Sum</p><p id="sum">0</p>
+            <br />
+            <p class="label">Diff</p><p id="diff">0</p>
+            <br />
+            <p class="label">Produc</p><p id="prod">0</p>
+            <br />
+            <p class="label">Quotient</p><p id="div">0</p>
+        </div>
     </body>
 </html>
